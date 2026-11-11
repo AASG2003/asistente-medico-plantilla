@@ -1,0 +1,27 @@
+{
+  "domain": "personal health diary",
+  "language": "Spanish",
+  "habit_examples": ["sleep", "coffee", "water", "exercise", "computer or phone use", "sitting", "alcohol", "meals", "medication"],
+  "symptom_examples": ["headache", "cough", "nausea", "itching"],
+  "state_examples": ["stress", "anxiety", "mood", "tiredness", "energy"],
+  "exposure_examples": ["dust", "smoke", "pollen", "cold", "strong smells", "pets"],
+  "habit_units": "\"hours\", \"minutes\", \"cups\", \"glasses\" or \"times\"",
+  "measure_examples": ["blood pressure", "oxygen saturation", "pulse", "temperature", "weight", "glucose", "white blood cells", "hemoglobin"],
+  "measure_units": "\"mmHg\", \"%\", \"bpm\", \"°C\", \"kg\", \"mg/dL\", \"cells/uL\", \"g/dL\"",
+  "intensity_max": 10,
+  "intensity_scale": {
+    "un poco": 2,
+    "algo de": 3,
+    "leve": 3,
+    "ligero": 3,
+    "moderado": 5,
+    "muy": 7,
+    "fuerte": 8,
+    "muy fuerte": 9,
+    "insoportable": 10
+  },
+  "day_parts": "madrugada \"00:00\"-\"06:00\", manana \"06:00\"-\"12:00\", tarde \"12:00\"-\"18:00\", noche \"18:00\"-\"23:59\"",
+  "max_days_back": 7,
+  "max_questions": 3,
+  "history_limit": 10
+}
